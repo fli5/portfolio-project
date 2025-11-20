@@ -1,7 +1,9 @@
 {
   "name": "@fli5/react-library",
+  "private": false,
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/fli5"
+    "registry": "https://npm.pkg.github.com/fli5",
+    "access": "public"
   },
   "version": "1.0.0-beta.1",
   "main": "dist/cjs/index.js",
