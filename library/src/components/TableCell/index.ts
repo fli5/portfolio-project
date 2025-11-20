@@ -15,5 +15,5 @@
  * Created: 2025-10-09
  * ---------------------------------------------------------------------
  */
-export { default } from './TableCell';
-export * from './TableCell.types';
+export { TableCell } from './TableCell';
+export type {TableCellProps} from './TableCell.types';

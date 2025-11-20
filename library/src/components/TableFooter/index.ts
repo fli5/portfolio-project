@@ -15,5 +15,5 @@
  * Created: 2025-10-09
  * ---------------------------------------------------------------------
  */
-export { default } from './TableFooter';
-export * from './TableFooter.types';
+export { TableFooter } from './TableFooter';
+export type { TableFooterProps}  from './TableFooter.types';

@@ -15,5 +15,5 @@
  * Created: 2025-10-09
  * ---------------------------------------------------------------------
  */
-export { default } from './Card';
-export * from './Card.types';
+export { Card } from './Card';
+export type {CardProps} from './Card.types';

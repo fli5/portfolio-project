@@ -15,5 +15,5 @@
  * Created: 2025-10-09
  * ---------------------------------------------------------------------
  */
-export { default } from './Dropdown';
-export * from './Dropdown.types';
+export { Dropdown } from './Dropdown';
+export type {DropdownProps}  from './Dropdown.types';

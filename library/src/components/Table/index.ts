@@ -15,5 +15,5 @@
  * Created: 2025-10-09
  * ---------------------------------------------------------------------
  */
-export { default } from './Table';
-export * from './Table.types';
+export { Table } from './Table';
+export type {TableProps} from './Table.types';

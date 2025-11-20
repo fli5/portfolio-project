@@ -15,5 +15,5 @@
  * Created: 2025-10-09
  * ---------------------------------------------------------------------
  */
-export { default } from './RadioButton';
-export * from './RadioButton.types';
+export { RadioButton } from './RadioButton';
+export type {RadioButtonProps} from './RadioButton.types';

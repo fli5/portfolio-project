@@ -15,5 +15,5 @@
  * Created: 2025-10-09
  * ---------------------------------------------------------------------
  */
-export { default } from './TableRow';
-export * from './TableRow.types';
+export { TableRow } from './TableRow';
+export type {TableRowProps} from './TableRow.types';

@@ -15,5 +15,5 @@
  * Created: 2025-10-09
  * ---------------------------------------------------------------------
  */
-export { default } from './Label';
-export * from './Label.types';
+export { Label } from './Label';
+export type {LabelProps} from './Label.types';

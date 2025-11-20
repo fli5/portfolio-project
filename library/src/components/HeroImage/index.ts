@@ -15,5 +15,5 @@
  * Created: 2025-10-09
  * ---------------------------------------------------------------------
  */
-export { default } from './HeroImage';
-export * from './HeroImage.types';
+export { HeroImage } from './HeroImage';
+export type {HeroImageProps} from './HeroImage.types';
