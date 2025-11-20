@@ -1,0 +1,10 @@
+{
+    "name": "portfolio-project",
+    "private": true,
+    "scripts": {
+        "dev:web": "npm start --prefix web",
+        "build:web": "npm run build --prefix web",
+        "storybook": "npm run storybook --prefix library",
+        "build:library": "npm run rollup --prefix library"
+    }
+}
