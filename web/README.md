@@ -20,17 +20,13 @@
   }
 }
 ```
-### 2. Add the `.npmrc` file in the library root
-```text
-@fli5:registry=https://npm.pkg.github.com
-//npm.pkg.github.com/:_authToken={github_token}
-```
-### 3. Build and package the library
+### 2. Build and package the library
 ```bash
 npm run rollup
 ```
-### 4. Publish the library to Github
+### 3. Publish the library to Github
 ```bash
+$env:GITHUB_TOKEN="{ghp_xxxxxxxxxxxxx}"
 npm publish
 ```
 ---
@@ -106,7 +102,7 @@ npm install lucide-react
 @fli5:registry=https://npm.pkg.github.com
 //npm.pkg.github.com/:_authToken={github_token}
 ```
-### 14 Add the react library dependency
+### 14 Add the react library dependency in `package.json`
 ```json
   "dependencies": {
     "@fli5/react-library": "beta",
