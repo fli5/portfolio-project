@@ -8,7 +8,6 @@
 - eslint: ^9.38.0
 - husky: ^9.1.7
 - prettier: ^3.6.2
-
 ---
 
 ## Install and set up the Husky
