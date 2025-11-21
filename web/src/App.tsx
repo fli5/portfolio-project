@@ -37,7 +37,16 @@ const App: React.FC = () => {
 
   const works = [
     {
-      title: 'Assignment 14: UI Library Quality Assurance',
+      title: 'Assignment 14: Building a Portfolio Website',
+      description:
+        'Build a portfolio website using a React component library that showcases completed coursework. The final deliverable is a dockerized Create React App with a Dockerfile.',
+      image:
+        'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=400&fit=crop',
+      link: 'https://github.com/fli5/portfolio-project',
+      techList: ['ESLint', 'Prettier', 'React', 'Sass','Docker'],
+    },
+    {
+      title: 'Assignment 13: UI Library Quality Assurance',
       description:
         'Implement QA tooling for a React UI library using Husky, ESLint, Prettier, lint-staged, and GitHub Actions. Ensures code quality and consistency with automated checks on commits and pull requests.',
       image:
@@ -47,8 +56,8 @@ const App: React.FC = () => {
         'ESLint',
         'Prettier',
         'Husky',
-        'lint-staged',
         'GitHub Actions',
+        'Docker'
       ],
     },
     {
@@ -75,31 +84,22 @@ const App: React.FC = () => {
     description:
       'I specialize in full-stack web development with a focus on creating performant, user-friendly applications. My expertise spans modern JavaScript frameworks, backend technologies, and cloud infrastructure.',
     languages: [
-      'JavaScript/TypeScript',
-      'Python',
-      'Ruby',
-      'PHP',
-      'Java',
-      'SQL',
-      'HTML/CSS',
+      'JavaScript',
+      'TypeScript',
+      'HTML',
+      'CSS',
     ],
     frameworks: [
       'React',
-      'Angular',
       'Node.js',
-      'Django',
-      'Fastapi',
-      'Spring Boot',
+      'Bootstrap',
+      'tailwind CSS',
     ],
     tools: [
       'Git',
       'Docker',
-      'AWS',
-      'Webpack',
-      'Jest',
-      'Husky',
-      'ESLint',
-      'Prettier',
+      'GitHub',
+      'VSCode',
     ],
   };
 
