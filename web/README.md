@@ -9,6 +9,7 @@
 - prettier: ^3.6.2
 - @fli5/react-library: beta
 - eslint": ^9.39.1
+- tailwind: ^3.4.18
 ---
 ## Publish React Library
 ### 1. Configurate the publish in `package.json`
@@ -20,11 +21,16 @@
   }
 }
 ```
-### 2. Build and package the library
+### 2. Set up the `.npmrc` file for the current user
+```text
+@fli5:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken={github_token}
+```
+### 3. Build and package the library
 ```bash
 npm run rollup
 ```
-### 3. Publish the library to Github
+### 4. Publish the library to Github
 ```bash
 $env:GITHUB_TOKEN="{ghp_xxxxxxxxxxxxx}"
 npm publish
@@ -37,7 +43,7 @@ npx create-react-app web --template typescript
 ```
 ### 2. Install the Prettier
 ```bash
-    npm install prettier --save-dev
+npm install prettier --save-dev
 ```
 ### 3. Add Prettier Configuration file (.prettierrc.json)
 
@@ -78,7 +84,7 @@ Avoid the conflict caused by eslint 9.x
 ```
 ### 8. Configure the ESlint (eslint.config.mjs)
 ```bash
-    npm init @eslint/config
+npm init @eslint/config
 ```
 ### 9. Add the scripts in the package.json
 
@@ -89,19 +95,16 @@ Avoid the conflict caused by eslint 9.x
   }
 ```
 ---
-### 11 Install the sass pakcage
+### 11 Install the sass and tailwind pakcage
 ```bash
 npm install sass
+npm install tailwindcss --save-dev
 ```
 ### 12 Install icons package
 ```bash
 npm install lucide-react
 ```
-### 13. Add the `.npmrc` file in the project root
-```text
-@fli5:registry=https://npm.pkg.github.com
-//npm.pkg.github.com/:_authToken={github_token}
-```
+
 ### 14 Add the react library dependency in `package.json`
 ```json
   "dependencies": {
@@ -176,37 +179,37 @@ CMD ["nginx", "-g", "daemon off;"]
 ### Remove Docker Container
 
 ```bash
-  docker rm feng_li_coding_assignment14
+docker rm feng_li_coding_assignment14
 ```
 
 ### Remove Docker Image
 
 ```bash
-  docker image rm feng_li_coding_assignment14
+docker image rm feng_li_coding_assignment14
 ```
 
 ### Build Docker Image
 
 ```bash
-  docker build -t feng_li_coding_assignment14 .
+docker build -t feng_li_coding_assignment14 .
 ```
 
 ### Run Docker Container
 
 ```bash
-  docker run -d -p 5575:80 --name feng_li_coding_assignment14 feng_li_coding_assignment14
+docker run -d -p 5575:80 --name feng_li_coding_assignment14 feng_li_coding_assignment14
 ```
 
 ### Stop Docker Continaer
 
 ```bash
-  docker stop feng_li_coding_assignment14
+docker stop feng_li_coding_assignment14
 ```
 
 ### Start Docker Continaer
 
 ```bash
-  docker start feng_li_coding_assignment14
+docker start feng_li_coding_assignment14
 ```
 
 ## 10. http://localhost:5575
