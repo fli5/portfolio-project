@@ -1,8 +1,5 @@
 import './App.scss';
-import {
-  Dropdown,
-  Text,
-} from '@fli5/react-library';
+import { Dropdown, Text } from '@fli5/react-library';
 import React, { useState } from 'react';
 import { Github, Linkedin, Mail } from 'lucide-react';
 import { BasicInformation } from './components/BasicInformation/BasicInformation';
@@ -43,7 +40,7 @@ const App: React.FC = () => {
       image:
         'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=400&fit=crop',
       link: 'https://github.com/fli5/portfolio-project',
-      techList: ['ESLint', 'Prettier', 'React', 'Sass','Docker'],
+      techList: ['ESLint', 'Prettier', 'React', 'Sass', 'Docker'],
     },
     {
       title: 'Assignment 13: UI Library Quality Assurance',
@@ -52,13 +49,7 @@ const App: React.FC = () => {
       image:
         'https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=400&fit=crop',
       link: 'https://github.com/fli5/code-quality-check',
-      techList: [
-        'ESLint',
-        'Prettier',
-        'Husky',
-        'GitHub Actions',
-        'Docker'
-      ],
+      techList: ['ESLint', 'Prettier', 'Husky', 'GitHub Actions', 'Docker'],
     },
     {
       title: 'Assignment 12: React Library with Storybook',
@@ -83,24 +74,9 @@ const App: React.FC = () => {
   const skills = {
     description:
       'I specialize in full-stack web development with a focus on creating performant, user-friendly applications. My expertise spans modern JavaScript frameworks, backend technologies, and cloud infrastructure.',
-    languages: [
-      'JavaScript',
-      'TypeScript',
-      'HTML',
-      'CSS',
-    ],
-    frameworks: [
-      'React',
-      'Node.js',
-      'Bootstrap',
-      'tailwind CSS',
-    ],
-    tools: [
-      'Git',
-      'Docker',
-      'GitHub',
-      'VSCode',
-    ],
+    languages: ['JavaScript', 'TypeScript', 'HTML', 'CSS'],
+    frameworks: ['React', 'Node.js', 'Bootstrap', 'tailwind CSS'],
+    tools: ['Git', 'Docker', 'GitHub', 'VSCode'],
   };
 
   const resources = [
@@ -148,7 +124,6 @@ const App: React.FC = () => {
     },
   ];
 
-  
   const devSetup = {
     vscode: {
       theme: 'One Dark Pro',
@@ -181,7 +156,7 @@ const App: React.FC = () => {
             <a href="https://github.com/fli5">
               <Github size={24} />
             </a>
-            <a href="www.linkedin.com/in/feng-li-felix">
+            <a href="http://www.linkedin.com/in/feng-li-felix">
               <Linkedin size={24} />
             </a>
             <a href="mailto:fli5@academic.rrc.ca">
